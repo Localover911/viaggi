@@ -4,13 +4,12 @@ public class Viaggi {
     private String destinazioni;
     private int giorni;
     private int prezzo;
-    private int prezzoBase;
 
     public Viaggi(String destinazioni, int giorni, int prezzo){
         this.destinazioni= destinazioni;
         this.giorni= giorni;
         this.prezzo = prezzo;
-        this.prezzoBase = 1000;
+
     }
 
     public void setDestinazioni(String destinazioni){
@@ -32,8 +31,8 @@ public class Viaggi {
     public int getPrezzo(){
         return prezzo;
     }
-    public int getPrezzoBase(){
-        return prezzoBase;
+
+    public void prezzoFinale(){
     }
 
 }

@@ -3,7 +3,7 @@ package pacchetto;
 public class ViaggiVolo extends Viaggi{
     private boolean isAndataRitorno;
 
-    public ViaggiVolo(String destinazioni, int giorni, int prezzo, boolean isAndataRitorno) {
+    public ViaggiVolo(String destinazioni, int giorni,int prezzo, boolean isAndataRitorno) {
         super(destinazioni, giorni, prezzo);
         this.isAndataRitorno = isAndataRitorno;
     }

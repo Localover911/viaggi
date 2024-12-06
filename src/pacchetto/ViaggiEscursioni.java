@@ -3,7 +3,7 @@ package pacchetto;
 public class ViaggiEscursioni extends ViaggiPasti {
     private int escursioni;
 
-    public ViaggiEscursioni(String destinazioni, int giorni, int prezzo,boolean isPensioneCompleta, int escursioni) {
+    public ViaggiEscursioni(String destinazioni, int giorni, int prezzo, boolean isPensioneCompleta, int escursioni) {
         super(destinazioni, giorni, prezzo, isPensioneCompleta);
         this.escursioni = escursioni;
     }
